@@ -1,5 +1,5 @@
 const { Thought, User, Types } = require('../models');
-
+// thought controller
 const thoughtController = {
     getAllThoughts(req, res) {
         Thought.find({})
