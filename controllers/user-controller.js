@@ -36,7 +36,7 @@ const userController = {
     createUser({ body }, res) {
         User.create(body)
             .then(dbUserData => res.json(dbUserData))
-            .ctach(err => {
+            .catch(err => {
                 console.log(err)
                 res.status(400).json(err)
             })

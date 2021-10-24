@@ -26,4 +26,4 @@ router
     .post(addFriend)
     .delete(removeFriend)
 
-module.exports -router;
+module.exports = router;

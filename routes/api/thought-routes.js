@@ -4,6 +4,7 @@ const {
     getAllThoughts,
     getThoughtById,
     createThought,
+    updateThought,
     removeThought,
     addReaction,
     removeReaction,
@@ -20,10 +21,12 @@ router
 router
     .route('/:thoughtId')
     .get(getThoughtById)
-    .put(addThought)
+    .put(updateThought)
     .delete(removeThought)
 
 router
      .route('/:thoughtId/reactions')
      .post(addReaction)
      .delete(removeReaction)
+
+module.exports = router;
