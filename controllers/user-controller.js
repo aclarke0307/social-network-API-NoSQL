@@ -103,7 +103,7 @@ const userController = {
             runValidators: true }
         )
         .select('-__v')
-        .then((dbUserDate) => {
+        .then((dbUserData) => {
             if(!dbUserData) {
                 res.status(404).json({ message: "no friend found with this id"});
                 return;
