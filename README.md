@@ -21,6 +21,9 @@ Insomnia Core
 MongoDB
 
 # Walkthrough Video
-
+first part
+<br>https://watch.screencastify.com/v/P8zd67ZgzYGdgQA8s3EV<br>
+<br>second part<br>
+https://watch.screencastify.com/v/DmoTTB3zp9DgNGBz3m2C
 # Contributing 
 Alexandria Clarke https://github.com/aclarke0307
